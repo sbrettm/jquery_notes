@@ -28,7 +28,7 @@ $(document).ready( function() {
   $('.small').css('border', '5px solid red');
   
   // Class selectors
-  // Selects all elements with both 'small' and 'big' classes. There is no space between the classes.
+  // Selects all elements with class 'big' that is a child to class 'small'. There is no space between the classes.
   $('.small.big').css('border', '5px solid red');
     
   // Selects all elements with either 'small' or 'big' classes. There is a space between the classes.
